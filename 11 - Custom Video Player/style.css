@@ -51,7 +51,12 @@ body {
   outline: 0;
   padding: 0;
   cursor: pointer;
-  max-width: 50px;
+  max-width: 40px;
+}
+
+.player__button:last-child{
+  position: relative;
+  left: -7px;
 }
 
 .player__button:focus {
